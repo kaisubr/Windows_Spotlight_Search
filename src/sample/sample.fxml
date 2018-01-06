@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <BorderPane prefHeight="90.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <right>
+            <TextField id="textField_input" prefHeight="72.0" prefWidth="727.0" promptText="What's up?" style="-fx-border-radius: 0; -fx-background-color: white; -fx-border-color: #F0F0F0;" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Fira Sans ExtraLight" size="35.0" />
+               </font>
+               <BorderPane.margin>
+                  <Insets right="8.0" />
+               </BorderPane.margin>
+            </TextField>
+         </right>
+         <left>
+            <ImageView fitHeight="45.0" fitWidth="45.0" opacity="0.59" pickOnBounds="true" preserveRatio="true" style="-fx-scale-x: 1;" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../images/sp-search/ic_search_black_36dp/ic_search_black_36dp/android/drawable-xhdpi/ic_search_black_36dp.png" />
+               </image>
+               <BorderPane.margin>
+                  <Insets left="15.0" />
+               </BorderPane.margin>
+            </ImageView>
+         </left>
+      </BorderPane>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <BorderPane prefHeight="76.0" prefWidth="800.0">
+               <center>
+                  <TextField id="label_result" alignment="BOTTOM_LEFT" editable="false" maxWidth="782.0" minWidth="755.0" prefHeight="64.0" prefWidth="782.0" style="-fx-background-color: white; -fx-wrap-text: true; -fx-text-alignment: center;" text="Hey! What would you like to find out?" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Fira Sans Light" size="22.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </TextField>
+               </center>
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin>
+            </BorderPane>
+            <BorderPane prefHeight="217.0" prefWidth="800.0">
+               <center>
+                  <Label id="label_wikipedia_result" alignment="TOP_LEFT" prefHeight="199.0" prefWidth="755.0" text="Type in a search query, but be specific. For example, if you were looking up Windows, type in &quot;Windows&quot; rather than asking the question, &quot;What is Windows?&quot;" wrapText="true" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Fira Sans Light" size="16.0" />
+                     </font>
+                  </Label>
+               </center>
+            </BorderPane>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="TOP_RIGHT" contentDisplay="RIGHT" disable="true" prefHeight="17.0" prefWidth="799.0" text="Results from WolframAlpha and Wikipedia API" textAlignment="RIGHT" wrapText="true">
+               <font>
+                  <Font name="Fira Sans Italic" size="10.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+            </Label>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

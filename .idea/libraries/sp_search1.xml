@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sp-search1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/images/sp-search/ic_search_black_36dp.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/images/sp-search/ic_search_white_48dp.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/images/sp-search/ic_search_white_36dp.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

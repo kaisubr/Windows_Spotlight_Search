@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72px" height="72px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-tail">
+    <defs>
+      <filter id="tail-de2e7be1c40fc" x="-100%" y="-100%" width="300%" height="300%" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+        <feColorMatrix mode="matrix" values="1 0 0 0 0   0 1 0 0 0   0 0 1 0 0   0 0 0 60 -40" result="cm"/>
+      </filter>
+    </defs>
+    <g ng-attr-filter="url(#{{config.filterid}})" filter="url(#tail-de2e7be1c40fc)" transform="rotate(110.4 50 50)">
+      <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="5s" begin="0s" repeatCount="indefinite"/>
+      <g transform="rotate(208.347 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="19" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.13333333333333333 0 0.03333333333333333 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(191.308 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="18" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.16666666666666669 0 0.06666666666666667 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(173.402 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="17" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.2 0 0.1 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(149.366 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="16" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.23333333333333334 0 0.13333333333333333 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(126.459 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="15" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.26666666666666666 0 0.16666666666666666 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(101.926 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="14" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.30000000000000004 0 0.2 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(82.8924 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="13" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.33333333333333337 0 0.23333333333333334 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(67.965 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="12" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.3666666666666667 0 0.26666666666666666 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(56.1293 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="11" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.4 0 0.3 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(47.1031 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="10" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.43333333333333335 0 0.3333333333333333 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(38.9778 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="9" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.4666666666666667 0 0.36666666666666664 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(32.7202 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="8" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.5 0 0.4 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(27.5743 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="7" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.5333333333333333 0 0.43333333333333335 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(24.8251 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="6" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.5666666666666667 0 0.4666666666666667 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(21.7488 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="5" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.6 0 0.5 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(19.2048 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="4" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.6333333333333333 0 0.5333333333333333 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(17.0773 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="3" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.6666666666666666 0 0.5666666666666667 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(15.2798 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="2" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.7 0 0.6 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(13.7472 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="1" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.7333333333333333 0 0.6333333333333333 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+      <g transform="rotate(12.4298 50 50)">
+        <g ng-attr-transform="translate(50 {{config.cy}})" transform="translate(50 18)">
+          <circle cx="0" cy="0" r="0" ng-attr-fill="{{config.fill}}" ng-attr-transform="scale({{config.scale}})" fill="#e87033" transform="scale(0.4)"/>
+        </g>
+        <animateTransform attributeName="transform" calcMode="spline" type="rotate" values="0 50 50;360 50 50" keyTimes="0;1" ng-attr-dur="{{config.speed2}}" keySplines="0.7666666666666666 0 0.6666666666666666 1" repeatCount="indefinite" dur="1.25"/>
+      </g>
+    </g>
+  </svg>
